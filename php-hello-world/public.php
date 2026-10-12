@@ -16,7 +16,7 @@ class Student {
 
 $student1 = new Student("Alice", 8.5);
 echo $student1->introduce();
-// echo "Điểm số của {$student1->name} là: {$student1->score}<br>"; // Lỗi: thuộc tính score là private
+echo "Điểm số của {$student1->name} là: {$student1->score}<br>"; 
 
 class VnStudent extends Student {
     public $truong;
