@@ -15,10 +15,6 @@ for ($i = 1; $i <= 50; $i++) {
 
 print_r($result);
 
-$hash = array();
+$hash = array_flip ($result);
 
-for ($i = 0; $i < count($result); $i++) {
-    $valhash = $result[$i];
-    $hash[$valhash] = $i;
-}
 print_r($hash);
